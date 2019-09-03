@@ -65,11 +65,11 @@ func (p *N26CsvParser) Parse() error {
 	// 2 Verwendungszweck		"-" wenn leer, ansonsten [Verwendungszweck]
 	// 2 Name					[Empfänger]
 
-	csv := csv.NewWriter(buf)
-	csv.UseCRLF = true
+	csvbuf := csv.NewWriter(buf)
+	csvbuf.UseCRLF = true
 
 	// Header schreiben
-	err = csv.Write([]string{
+	err = csvbuf.Write([]string{
 		"Buchungstag",
 		"Betrag",
 		"Verwendungszweck",
@@ -108,7 +108,7 @@ func (p *N26CsvParser) Parse() error {
 			rSubject = "-"
 		}
 
-		err = csv.Write([]string{
+		err = csvbuf.Write([]string{
 			rDate.Format("02.01.2006"),
 			rValue,
 			rSubject,
@@ -121,7 +121,7 @@ func (p *N26CsvParser) Parse() error {
 		}
 	}
 
-	csv.Flush()
+	csvbuf.Flush()
 
 	out := new(bytes.Buffer)
 
