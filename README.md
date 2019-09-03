@@ -7,7 +7,7 @@ Befehl um ein oder mehrere N26 CSV-Dateien in ein kompatibles Format für den ma
 
 ## Installation
 
-Es stehen vorkompilierte, ausführbare Dateien in den [Releases]((https://github.com/adrianrudnik/uritool/n26-to-sevdesk) zur Verfügung oder es steht einem frei diese selbst vom Quellcode zu kompilieren.
+Es stehen vorkompilierte, ausführbare, Dateien in den [Releases](https://github.com/adrianrudnik/n26-to-sevdesk/releases) zur Verfügung oder es steht einem frei diese selbst vom Quellcode zu kompilieren.
 
 ## Anmerkungen
 
