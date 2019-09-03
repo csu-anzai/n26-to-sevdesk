@@ -14,7 +14,7 @@ Es stehen vorkompilierte, ausführbare Dateien in den [Releases]((https://github
 Die ausführbare Datei entweder irgendwo ablegen wo sie ausgeführt werden kann. Danach alle umzuwandelnden CSV-Dateien in einen Ordner legen und den Befehl starten:
 
 ```sh
-n26-to-sevdesk --verbose *.csv
+n26-to-sevdesk convert --verbose *.csv
 ```
 
 Danach sollten alle gefundenen Dateien umgewandelt werden in gleichnamige Dateien mit der Endung `{name}.sevdesk.csv` welche für den Import nach Sevdesk vorgesehen sind.
