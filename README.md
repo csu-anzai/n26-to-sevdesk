@@ -2,7 +2,7 @@
 
 Befehl um ein oder mehrere N26 CSV-Dateien in ein kompatibles Format für den manuellen Import in https://sevdesk.de/ umzuwandeln.
 
-[![license](https://img.shields.io/github/license/adrianrudnik/n26-to-sevdesk.svg)](https://lab.klonmaschine.de/adrian.rudnik/n26-to-sevdesk/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/adrianrudnik/n26-to-sevdesk.svg)](https://github.com/adrianrudnik/n26-to-sevdesk/blob/master/LICENSE)
 [![go report card](https://goreportcard.com/badge/github.com/adrianrudnik/n26-to-sevdesk)](https://goreportcard.com/report/github.com/adrianrudnik/n26-to-sevdesk)
 
 ## Installation
